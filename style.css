@@ -23,13 +23,15 @@ h1{
 p{
     font-size: large;
 }
+.textposition{
+    padding-top: 150px;
+    margin-left: 200px;
+}
 .textbox{
     text-align: left;
     color: white;
     width: 450px;
     height: 400px;
-   padding-top: 150px;
-    margin-left: 200px;
 }
 
 .btn{
@@ -46,6 +48,68 @@ p{
 
 /* main section start */
 
+/* first page */
+.firstpage{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.half-width{
+    width: 42%;
+    margin: 4%;
+}
+
+
+.image{
+    width: 90%;
+    height: 500px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* second page */
+
+.secondpage{
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.textarea{
+    display: flex;
+}
+ .textbox1{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 50px;
+}
+
+.card{
+    width: 46%;
+    margin:1%;
+    height:200px;
+    display:flex;
+    border-radius: 10px;
+    background-color:antiquewhite;
+}
+.icon{
+    width: 40%;
+    text-align: center;
+    
+    padding-top: 20px;
+}
+i{
+    font-size:50px;
+    color:red;
+    padding: 25%;
+}
+
+.textbox2{
+    text-align: left;
+    padding: 15px;
+   
+}
 /* main section end */
 
 /* footer section start */
