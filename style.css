@@ -22,6 +22,7 @@ h1{
 }
 p{
     font-size: large;
+    color:cadetblue ;
 }
 .textposition{
     padding-top: 150px;
@@ -64,7 +65,7 @@ p{
 
 .image{
     width: 90%;
-    height: 500px;
+    height: 480px;
     border-radius: 5px;
     border: none;
 }
@@ -93,6 +94,20 @@ p{
     border-radius: 10px;
     background-color:antiquewhite;
 }
+.card:hover{
+    width: 46%;
+    margin:1%;
+    height:200px;
+    display:flex;
+    border-radius: 10px;
+    background-color:blueviolet;
+    box-shadow: 5px 10px slategray;
+    transition-duration: 0.5s;
+}
+.anchor{
+    text-decoration-line: none;
+}
+
 .icon{
     width: 40%;
     text-align: center;
@@ -110,7 +125,72 @@ i{
     padding: 15px;
    
 }
+
+/* thirdpage */
+
+.thirdpage{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 120px;
+   margin-bottom: 100px;
+}
+.imageposition{
+    display: flex;
+}
+.imagepart{
+    width: 31.33%;
+    height: 400px;
+    margin: 1%;
+    border-radius: 10px;
+}
+
+
+.textbox3{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+
+.cardposition{
+    display: flex;
+}
+.imagecard{
+    width: 31.33%;
+    height: 500px;
+    margin: 1%;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.img{
+    height: 40%;
+    width: 100%;
+   
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.textbox4{
+    text-align: left;
+    padding: 5%;
+}
+
+.donate-btn{
+    color: red;
+    font-size: 20px;
+    font-weight:bolder;
+}
+
 /* main section end */
 
 /* footer section start */
+
+footer{
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+
+
 /* footer section end */
